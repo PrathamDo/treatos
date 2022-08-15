@@ -1,0 +1,30 @@
+.theme-color{
+    color: #fcc100f6;
+}
+.color-white{
+    color: white;
+}
+.color-grey{
+    color: grey;
+}
+.theme-colorbg{
+    background-color: #fcc000;
+}
+.font-head{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.font-others{
+    font-family: 'Open Sans', sans-serif;
+}
+.none{
+    display: none;
+}
+.mg-r{
+    border-right: 0.5px solid rgba(0,0,0,.15);
+}
+.mg-b{
+    border-bottom: 0.5px solid rgba(0,0,0,.15);
+}
+a{
+    color: black;
+}

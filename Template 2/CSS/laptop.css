@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* NAVBAR */
+#navbar{
+    display: none;
+}
+#responsive-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcc000;
+    padding: 15px 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#responsive-nav .container{
+    display: inline-block;
+    cursor: pointer;
+}
+
+#responsive-nav .container #bar1, #bar2, #bar3{
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+#sideNav{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
+    transition: all 0.4s;
+}
+#sideNav .flex-container{
+    display: flex;
+    height: 52px;
+    border-bottom: 0.5px solid rgba(0,0,0,.15);
+}
+#sideNav .flex-container .nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    cursor: pointer;
+}
+#sideNav .flex-container .nav-box i{
+    font-size: 20px;
+}
+#sideNav .flex-container .nav-box p{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(32, 32, 32);
+}
+#sideNav .page-links{
+    display: flex;
+    flex-direction: column;
+}
+#sideNav .page-links .page-cards{
+    padding: 9px 12px;
+}
+#sideNav .page-links .page-cards a{
+    color: #06135c;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* PAGE NAME */
+
+#pgname{
+    margin: 5rem 0rem;
+}
+
+/* OVERVIEW */
+
+#overview{
+    padding: 2rem;
+}
+#overview .review{
+    width: 60%;
+    box-sizing: border-box;
+    margin: 0rem auto;
+}
+#overview .review .section-head{
+    font-size: 2.3rem;
+    line-height: 3rem;
+}
+#overview .overview-container{
+    width: 20rem;
+    box-sizing: border-box;
+    margin: 2rem auto 2rem 2rem;
+    /* padding: 2rem 0rem 2rem 1rem; */
+}
+
+/* FORM */
+
+#form{
+    padding: 2rem;
+    align-items: center;
+}
+#form .form-container{
+    padding-right: 1rem;
+}
+#form .form-container .section-head{
+    font-size: 2.3rem;
+    line-height: 3rem;
+}
+#form .form-container .form-cards{
+    box-sizing: border-box;
+    width: 100%;
+}
+#form .form-container .form-cards .form-input{
+    box-sizing: border-box;
+}
+#form .form-container .form-cards textarea{
+    box-sizing: border-box;
+}
+/* SUBSCRIPTION */
+
+#subscription{
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0rem; 
+}
+#subscription .sub-head{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+#subscription .sub-head p{
+    font-size: 1.65rem;
+}
+#subscription .sub-field{
+    width: 100%;
+    height: 61px;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+}
+
+/* FOOTER */
+
+footer{
+    flex-direction: column-reverse;
+}
+footer .menu{
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+footer .menu p{
+    text-align: center;
+}
+footer .menu .ql-food{
+    text-align: center;
+}
+footer .menu .ql-food ul{
+    margin-right: 0;
+    width: 100%;
+}
+footer .menu .ql-food .food-item{
+    display: none;
+}
+footer .contact{
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+footer .contact img{
+    display: block;
+    width: 10rem;
+    margin: 0rem auto;
+
+}
+footer .contact .contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+footer .contact .contact-wrapper .footer-social{
+    justify-content: center;
+    width: 100%;
+}
+footer .contact .contact-wrapper .footer-social button{
+    margin: 0px 10px;
+}

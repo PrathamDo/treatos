@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#navbar{
+    display: none;
+}
+#responsive-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcc000;
+    padding: 15px 25px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#responsive-nav .container{
+    display: inline-block;
+    cursor: pointer;
+}
+#responsive-nav .container #bar1, #bar2, #bar3{
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+#sideNav{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: white;
+    transition: all 0.4s;
+}
+#sideNav .flex-container{
+    display: flex;
+    height: 52px;
+    border-bottom: 0.5px solid rgba(0,0,0,.15);
+}
+#sideNav .flex-container .nav-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.35%;
+    cursor: pointer;
+}
+#sideNav .flex-container .nav-box i{
+    font-size: 20px;
+}
+#sideNav .flex-container .nav-box p{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(32, 32, 32);
+}
+#sideNav .page-links{
+    display: flex;
+    flex-direction: column;
+}
+#sideNav .page-links .page-cards{
+    padding: 9px 12px;
+}
+#sideNav .page-links .page-cards a{
+    color: #06135c;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 17px;
+}
+#pgname{
+    margin: 5rem 0rem;
+}
+#overview{
+    padding: 2rem 1rem;
+    flex-direction: column;
+}
+#overview .review{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0rem auto 0rem auto;
+}
+#overview .review .section-head{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    text-align: center;
+}
+#overview .review p{
+    text-align: center;
+}
+#overview .overview-container{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    padding: 2rem 0rem 2rem 1rem;
+}
+#form{
+    padding: 2rem 1rem;
+    flex-direction: column;
+}
+#form .form-container{
+    width: 100%;
+    margin: 0rem;
+}
+#form .form-container .section-head{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    text-align: center;
+}
+#form .form-container .form-cards{
+    display: block;
+    margin: 0rem;
+}
+#form .form-container .form-cards .form-input{
+    width: 96%;
+    margin-top: 1rem;
+}
+#form .form-container .form-cards textarea{
+    width: 96%;
+    margin-top: 1rem;
+}
+#form .schedule{
+    width: 22rem;
+    margin: 0rem auto;
+}
+#form .form-container .submit-btn{
+    width: 100%;
+    margin: 2rem auto;
+}
+#subscription{
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin: 0rem; 
+}
+#subscription .sub-head{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+    text-align: center;
+}
+#subscription .sub-head p{
+    font-size: 1.65rem;
+}
+#subscription .sub-field{
+    width: 100%;
+    height: 61px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+footer{
+    flex-direction: column-reverse;
+}
+footer .menu{
+    box-sizing: border-box;
+    padding: 1rem 1rem;
+    width: 100%;
+}
+footer .menu p{
+    text-align: center;
+}
+footer .menu .ql-food{
+    text-align: center;
+}
+footer .menu .ql-food ul{
+    margin-right: 0;
+    width: 100%;
+}
+footer .menu .ql-food .food-item{
+    display: none;
+}
+footer .contact{
+    width: 100%;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+footer .contact img{
+    display: block;
+    width: 10rem;
+    margin: 0rem auto;
+
+}
+footer .contact .contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+footer .contact .contact-wrapper .footer-social{
+    justify-content: center;
+    width: 100%;
+}
+footer .contact .contact-wrapper .footer-social button{
+    margin: 0px 10px;
+}
